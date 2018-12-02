@@ -1,20 +1,26 @@
 {
-  "main": "node_modules/expo/AppEntry.js",
-  "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "eject": "expo eject"
-  },
+  "name": "civictech-react",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "expo": "^31.0.2",
-    "react": "16.5.0",
+    "react": "^16.6.3",
     "react-bingmaps": "^3.6.1",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.0.tar.gz",
-    "react-native-render-html": "^3.10.0"
+    "react-dom": "^16.6.3",
+    "react-scripts": "2.1.1"
   },
-  "devDependencies": {
-    "babel-preset-expo": "^5.0.0"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "private": true
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
